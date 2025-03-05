@@ -13,7 +13,7 @@ To revert to the previous behavior, you can opt out of `FileOutput` by passing `
 ```python
 output = replicate.run("acmecorp/acme-model", use_file_output=False)
 ```
-
+'['python', 'run.py', 'config/replicate.yml']' returned non-zero exit status 1.
 In most cases, updating existing applications to call `output.url` should resolve any issues. But we recommend using the `FileOutput` objects directly as we have further improvements planned to this API and this approach is guaranteed to give the fastest results.
 
 > [!TIP]
