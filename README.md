@@ -1,5 +1,5 @@
 # Replicate Python client
-
+'['python', 'run.py', 'config/replicate.yml']'
 This is a Python client for [Replicate](https://replicate.com). It lets you run models from your Python code or Jupyter notebook, and do various other things on Replicate.
 
 ## Breaking Changes in 1.0.0
